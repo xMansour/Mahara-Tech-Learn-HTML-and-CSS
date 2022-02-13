@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahara Tech - Learn HTML and CSS</title>
+  </head>
+  <body>
+    <!--Relative Paths-->
+    <!--./ current folder-->
+    <!--../ back once-->
+    <!--../../ back twice-->
+    <a href="https://www.google.com">
+      <img src="./imgs/google.png" alt="Google's Logo" width="100px" />
+    </a>
+    <br />
+    <img
+      src="./imgs/socialMedia.png"
+      alt="Social Media"
+      usemap="#socialMediaMap"
+    />
+    <map name="socialMediaMap">
+      <area
+        shape="circle"
+        coords="60,155,30"
+        href="https://www.facebook.com"
+        alt=""
+      />
+      <area
+        shape="circle"
+        coords="155,155,30"
+        href="https://www.twitter.com"
+        alt=""
+      />
+      <area
+        shape="circle"
+        coords="250,155,30"
+        href="https://www.instagram.com"
+        alt=""
+      />
+      <area
+        shape="circle"
+        coords="350,155,30"
+        href="https://www.pinterest.com"
+        alt=""
+      />
+      <area
+        shape="circle"
+        coords="440,155,30"
+        href="https://www.linkedin.com"
+        alt=""
+      />
+      <area
+        shape="circle"
+        coords="540,155,30"
+        href="https://www.youtube.com"
+        alt=""
+      />
+    </map>
+    <br />
+
+    <!--IFrame-->
+    <iframe src="./page2.html" frameborder="0"></iframe>
+    <br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/c8P5H7bZPG4"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <br />
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.0952409137576!2d31.307990851342353!3d30.319808681803167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14580c58b6d97a19%3A0xcab36cc9efe34771!2zMzDCsDE5JzExLjMiTiAzMcKwMTgnMzQuMyJF!5e0!3m2!1sen!2seg!4v1644786026056!5m2!1sen!2seg"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+    <br />
+    <!--Anchor Links-->
+    <!-- Linking to a section in a page-->
+    <a href="#group3">Go to group 3</a>
+    <br />
+    <!-- Linking to a section in another page-->
+    <a href="./page2.html#group5">Go to group 5</a>
+    <br />
+    <!--Mail Links-->
+    <a
+      href="mailto:MEMansour96@gmail.com?subject=New Course&body=New ITI course at Mahara Tech Online"
+      >Send Mail To Mansour</a
+    >
+
+    <!--Tables-->
+    <table border="2px">
+      <caption>
+        Caption
+      </caption>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mahmoud</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ali</td>
+          <td>24</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Footer</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!--Col and Row span-->
+    <table border="2px" cellpadding="10px" cellspacing="10px">
+      <thead>
+        <tr>
+          <th colspan="2">Name</th>
+          <th rowspan="2" width="50%">Address</th>
+        </tr>
+        <tr>
+          <th width="25%">First</th>
+          <th width="25%">Second</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">Mahmoud Mansour</td>
+        </tr>
+        <tr>
+          <td rowspan="2" colspan="2">Big Data</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta qui
+            recusandae sed voluptas impedit molestias magni aut veritatis ipsam
+            ab alias odio, eos, illum quisquam rerum dolorum rem voluptate
+            architecto?
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- inputs and forms-->
+    <!--method POST/GET    action is the page to redirect to-->
+    <form method="" action="">
+      Name: <input type="text" name="userName"/><br />
+      Password: <input type="password" name="password"/><br />
+      <!--Name should be the same for radioboxes-->
+      Gender: <input type="radio" name="radioGender" value="male" />Male
+      <input type="radio" name="radioGender" value="female" />Female<br />
+      <!--Name can be different for checkboxes-->
+      Favs: <input type="checkbox" name="tea" value="tea" />Tea<br />
+      <input type="checkbox" name="coffe" value="coffe" />Coffe<br />
+      <input type="checkbox" name="juice" value="juice" />Juice<br />
+      <input type="file" /><br />
+      <input type="submit" />
+    </form>
+    <select name="" id="" multiple>
+        <option value="">Ronaldo</option>
+        <option value="">Messi</option>
+        <option value="">Salah</option>
+    </select>
+    <pre>
+        Group 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Group 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a name="group3">Group 3</a>
+    </pre>
+  </body>
+</html>
